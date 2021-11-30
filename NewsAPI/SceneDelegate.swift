@@ -29,6 +29,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         appearance.backgroundColor = UIColor(displayP3Red: 47/255, green: 54/255, blue: 64/255, alpha: 1.0)
         appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
         appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+        
         navVC.navigationBar.standardAppearance = appearance
         navVC.navigationBar.scrollEdgeAppearance = navVC.navigationBar.standardAppearance
         navVC.navigationBar.prefersLargeTitles = true
