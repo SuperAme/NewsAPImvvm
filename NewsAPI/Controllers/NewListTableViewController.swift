@@ -15,7 +15,11 @@ class NewListTableViewController: UITableViewController {
     }
     
     func setup() {
+        let url = URL(string: "https://newsapi.org/v2/everything?q=tesla&from=2021-11-01&sortBy=publishedAt&apiKey=302e63ed19cf467b8928c30fabff508c")!
         
+        WebService().getArticles(url: url, completion: { _ in
+            
+        })
         
     }
 }
